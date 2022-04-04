@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .navberDesign {
+    @apply bg-slate-200 transition-all ease-in-out duration-150 md:bg-transparent shadow-md md:shadow-none w-full  navMenu flex   md:flex-row flex-col  items-center justify-center uppercase p-4 font-semibold tracking-wider text-primary_black;
+  }
+}
+
 body {
   background-color: #f6f6f6;
   font-family: "Open Sans", sans-serif;
