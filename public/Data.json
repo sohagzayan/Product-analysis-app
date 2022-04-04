@@ -1,9 +1,9 @@
 [
   {
     "id": "1",
-    "picture": "http://https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80.it/32x32",
+    "picture": "https://www.rapitasystems.com/files/GBcircle.png",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "5.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "we think we’re in love",
     "detail": "Relationship status: burger."
@@ -12,7 +12,7 @@
     "id": "2",
     "picture": "http://www.venmond.com/demo/vendroid/img/avatar/big.jpg",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "4.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "good food, good mood",
     "detail": "Me eating fries: I should eat more salad."
@@ -22,7 +22,7 @@
     "id": "3",
     "picture": "http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "4.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "bliss on a plate",
     "detail": "Fun size is for quitters."
@@ -32,7 +32,7 @@
     "id": "4",
     "picture": "https://images.ctfassets.net/lh3zuq09vnm2/yBDals8aU8RWtb0xLnPkI/19b391bda8f43e16e64d40b55561e5cd/How_tracking_user_behavior_on_your_website_can_improve_customer_experience.png",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "5.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "healthy + delicious",
     "detail": "The best things in life are free*.*Does not apply to pizza."
@@ -42,7 +42,7 @@
     "id": "5",
     "picture": "https://www.freecodecamp.org/news/content/images/2022/01/IMG_1763.jpg",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "4.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "our famous burger",
     "detail": "Abs are temporary. burger is forever."
@@ -52,7 +52,7 @@
     "id": "6",
     "picture": "https://www.niemanlab.org/images/Greg-Emerson-edit-2.jpg",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "4.50/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "food glorious food",
     "detail": "The key to my heart looks a whole lot like a plate of burger."
@@ -62,7 +62,7 @@
     "id": "7",
     "picture": "https://www.gqrgm.com/wp-content/uploads/2019/03/Alfie-Clifton.png",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "5.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "made with love",
     "detail": "Love means never having to say Should we get dessert? "
@@ -72,17 +72,17 @@
     "id": "8",
     "picture": "https://www.1000islandsplayhouse.com/assets/Buddy-Scott-Carmichael.jpg",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "5.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "My favorite flavor of burger is more.",
-    "detail": "somthing"
+    "detail": "this food is very awesome and i very like this"
   },
 
   {
     "id": "9",
     "picture": "https://www.1000islandsplayhouse.com/assets/Buddy-Isaac-Bell.jpg",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "4.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "made to perfection",
     "detail": "I just want someone to look at me the way I look at food."
@@ -92,7 +92,7 @@
     "id": "10",
     "picture": "https://writestylesonline.com/wp-content/uploads/2019/01/What-To-Wear-For-Your-Professional-Profile-Picture-or-Headshot.jpg",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "4.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "good food, good life",
     "detail": "Fries before guys…and pretty much everything else."
@@ -102,7 +102,7 @@
     "id": "11",
     "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLhw1hom4oW6IWEQuto3saqEeSLxvuoXLwzsmVBGp_h17QazW7sPgNi5iR3ZfC3vuSzRc&usqp=CAU",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "5.00/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "a festival of flavors",
     "detail": "I will stop eating ice cream out of the container once I make it completely level."
@@ -112,7 +112,7 @@
     "id": "12",
     "picture": "https://goldenoptions.in/wp-content/uploads/2019/12/STOCK-OPTIONS-PREMIUM.jpg",
     "price": 2757,
-    "rating": " 4.50/5.00",
+    "rating": "4.50/5.00",
     "username": "Medina Beasley",
     "feedBackSms": "satisfy your taste",
     "detail": "You cannot taste me until you undress me. Sincerely, banana."

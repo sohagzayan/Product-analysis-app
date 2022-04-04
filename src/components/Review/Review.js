@@ -16,7 +16,7 @@ const Review = () => {
 
       <ReviewFrame reviewData={maxShowThreeProduct} ReviewCard={ReviewCard} />
       <div className="text-center mt-8">
-        <button onClick={()=> navigate('/reviews')} className="text-center  bg-green_light text-white px-3 py-1 font-semibold tracking-wider rounded-md cursor-pointer">
+        <button onClick={()=> navigate('/reviews')} className="text-center my-4 bg-green_light text-white px-3 py-1 font-semibold tracking-wider rounded-md cursor-pointer">
           See All Reviews
         </button>
       </div>
