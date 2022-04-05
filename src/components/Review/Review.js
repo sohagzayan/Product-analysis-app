@@ -10,7 +10,7 @@ const Review = () => {
   const navigate = useNavigate()
   return (
     <>
-      <h3 className="text-center text-4xl font-medium text-primary_black">
+      <h3 className="text-center mt-20 text-4xl font-medium text-primary_black">
         Customer Reviews (3)
       </h3>
 

@@ -9,7 +9,7 @@ const Reviews = () => {
     const [reviewData ,setReviewData] = useReviewData()
     return (
         <div>
-            
+            <h2 className='uppercase text-3xl text-center text-green_light font-bold tracking-wider'>What Our customers say ({reviewData.length})</h2>
             <div>
                 <ReviewFrame reviewData={reviewData} ReviewCard={ReviewCard} />
             </div>

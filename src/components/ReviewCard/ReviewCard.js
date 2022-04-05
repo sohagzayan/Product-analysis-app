@@ -20,41 +20,40 @@ const ReviewCard = ({ reviewDetails }) => {
             
             {
                rating === '4.50/5.00' ?
-                <div className="flex">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <BsStarHalf />
+                <div className="flex ">
+                <AiFillStar  className="text-orange_light"/>
+                <AiFillStar  className="text-orange_light"/>
+                <AiFillStar  className="text-orange_light"/>
+                <AiFillStar  className="text-orange_light"/>
+                <BsStarHalf  className="text-orange_light"/>
                 {/* <AiOutlineStar /> */}
                 </div>
                : rating === '4.00/5.00' ?
                  <div className="flex">
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiOutlineStar />
+                <AiFillStar  className="text-orange_light"/>
+                <AiFillStar  className="text-orange_light"/>
+                <AiFillStar  className="text-orange_light"/>
+                <AiFillStar  className="text-orange_light"/>
+                <AiOutlineStar className="text-orange_light"/>
               </div>
               : <div className="flex">
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
+              <AiFillStar  className="text-orange_light"/>
+              <AiFillStar  className="text-orange_light"/>
+              <AiFillStar  className="text-orange_light"/>
+              <AiFillStar  className="text-orange_light"/>
+              <AiFillStar  className="text-orange_light"/>
             </div>
             }
             
           </div>
-          <h4>{rating}</h4>
+          <h4 className="text-green_light font-bold">{rating}</h4>
         </div>
       </div>
 
       <div className="mt-4">
         <h4 className="text-primary_black  ">
-          {/* {`${username} reviewed ` <br /> <a href="/">Fnac</a> ${feedBackSms}} */}
           <span className="text-md text-slate-800 font-medium">{username}</span>{" "}
-          <span className="text-slate-600">reviewed</span>{" "}
+          <span className="text-slate-600">reviewed</span>
           <a className="text-blue-500 font-bold text-xl " href="/">
             Fanc
           </a>{" "}

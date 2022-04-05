@@ -1,16 +1,13 @@
 import React from 'react';
-import LineBarAreaComposedChart from '../components/Chart/LineBarAreaComposedChart';
+import ComposedChart from '../components/Chart/ComposedChart';
+import LegendChart from '../components/Chart/LegendChart';
 import SynchronizedAreaChart from '../components/Chart/SynchronizedAreaChart';
-import TwoLevelPieChart from '../components/Chart/TwoLevelPieChart';
-import VerticalComposedChart from '../components/Chart/VerticalComposedChart';
-
 const Dashboard = () => {
     return (
-        <div className='grid lg:grid-cols-2 container  items-center justify-center mx-auto grid-cols-1'>
-          <LineBarAreaComposedChart />
+        <div className='wrapperChart   flex flex-col items-center justify-center '>
           <SynchronizedAreaChart />
-          <TwoLevelPieChart />
-          <VerticalComposedChart />
+          <ComposedChart />
+          <LegendChart />
         </div>
     );
 };
