@@ -44,15 +44,16 @@ const VerticalLineChart = () => {
   return (
   <>
       {/* <h4>LineBarAreaComposedChart</h4> */}
+      {/* <ResponsiveContainer width="100%" height="100%"> */}
     <ComposedChart
-      width={500}
-      height={400}
+      width={400}
+      height={300}
       data={data}
       margin={{
         top: 20,
-        right: 20,
+        right: 0,
         bottom: 20,
-        left: 20,
+        left: 0,
       }}
       >
       <CartesianGrid stroke="#f5f5f5" />
@@ -65,7 +66,7 @@ const VerticalLineChart = () => {
       <Line type="monotone" dataKey="sell" stroke="#ff7300" />
       <Scatter dataKey="revenue" fill="red" />
     </ComposedChart>
- 
+    {/* </ResponsiveContainer> */}
   </>
   );
 };

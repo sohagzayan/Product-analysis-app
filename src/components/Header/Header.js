@@ -28,7 +28,7 @@ const Header = () => {
                     <NavLink className={({isActive})=> isActive ? "text-orange_light navItem before:bg-orange_light" : 'navItem'} to="/dashboard">Dashboard</NavLink> 
                 </li>
                 <li className='mx-4 md:mb-0 mb-4 '>
-                    <NavLink className={({isActive})=> isActive ? "text-orange_light navItem before:bg-orange_light" : 'navItem'} to="/blog">Blog</NavLink>
+                    <NavLink className={({isActive})=> isActive ? "text-orange_light navItem before:bg-orange_light" : 'navItem'} to="/blogs">Blog</NavLink>
                 </li>
                 <li className='mx-2 md:mb-0 mb-4'>
                     <NavLink className={({isActive})=> isActive ? "text-orange_light navItem before:bg-orange_light" : 'navItem'} to="/about">About</NavLink>

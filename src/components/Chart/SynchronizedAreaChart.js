@@ -47,15 +47,15 @@ const SynchronizedAreaChart = () => {
        
            <>
               {/* <h4>SynchronizedAreaChart</h4> */}
-        
-                <AreaChart
-                  width={500}
-                  height={200}
+         
+                <AreaChart 
+                 width={400}
+                 height={200}
                   data={data}
                   syncId="anyId"
                   margin={{
                     top: 10,
-                    right: 30,
+                    right: 0,
                     left: 0,
                     bottom: 0,
                   }}
@@ -68,6 +68,7 @@ const SynchronizedAreaChart = () => {
                   <Area type="monotone" dataKey="sell" stroke="#8884d8" fill="#8884d8" />
                   <Area type="monotone" dataKey="revenue" stroke="#8884d8" fill="#8884d8" />
                 </AreaChart>
+   
                 </>
           );
     

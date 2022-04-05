@@ -44,17 +44,18 @@ const VerticalComposedChart = () => {
     ]
 
     return (
+       
         <div style={{ width: '100%' }}>
         <ComposedChart
           layout="vertical"
-          width={500}
-          height={400}
+          width={350}
+          height={300}
           data={data}
           margin={{
             top: 20,
-            right: 20,
+            right: 0,
             bottom: 20,
-            left: 20,
+            left: 0,
           }}
         >
           <CartesianGrid stroke="#f5f5f5" />
@@ -67,6 +68,8 @@ const VerticalComposedChart = () => {
           <Line dataKey="revenue" stroke="#ff7300" />
         </ComposedChart>
         </div>
+        
+
     );
 };
 

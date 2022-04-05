@@ -48,12 +48,15 @@ const TwoLevelPieChart = () => {
     return (
         <>
         {/* <h3>TwoLevelPieChart</h3> */}
-        <PieChart width={400} height={400}>
+        {/* <ResponsiveContainer width="100%" height="100%"> */}
+
+        <PieChart width={350} height={450}>
           <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
           <Pie data={data} dataKey="sell" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
           <Pie data={data} dataKey="revenue" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
           <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
         </PieChart>
+        {/* </ResponsiveContainer> */}
         </>
       
     );

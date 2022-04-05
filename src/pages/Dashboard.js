@@ -6,7 +6,7 @@ import VerticalComposedChart from '../components/Chart/VerticalComposedChart';
 
 const Dashboard = () => {
     return (
-        <div className='grid lg:grid-cols-2 container items-center justify-center mx-auto grid-cols-1'>
+        <div className='grid lg:grid-cols-2 container  items-center justify-center mx-auto grid-cols-1'>
           <LineBarAreaComposedChart />
           <SynchronizedAreaChart />
           <TwoLevelPieChart />
