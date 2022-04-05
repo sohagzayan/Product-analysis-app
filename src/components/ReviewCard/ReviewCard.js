@@ -52,9 +52,9 @@ const ReviewCard = ({ reviewDetails }) => {
 
       <div className="mt-4">
         <h4 className="text-primary_black  ">
-          <span className="text-md text-slate-800 font-medium">{username}</span>{" "}
+          <span className="text-md text-slate-800 font-semibold">{username}</span>{" "}
           <span className="text-slate-600">reviewed</span>
-          <a className="text-blue-500 font-bold text-xl " href="/">
+          <a className="text-blue-500 font-bold text-xl mx-1 " href="/">
             Fanc
           </a>{" "}
           <br />

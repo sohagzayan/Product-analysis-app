@@ -4,7 +4,6 @@ const useReviewData = () => {
 
     const [reviewData , setReviewData] = useState([])
 
-
     useEffect(()=>{    
     fetch(`Data.json`)
     .then(res => res.json())
