@@ -13,7 +13,7 @@ const Header = () => {
 
 
     return (
-        <div className='flex relative   md:bg-transparent item-center justify-center w-full'>
+        <div className='flex relative  top-0     md:bg-transparent item-center justify-center w-full'>
              <h5 className='absolute z-50 text-4xl block md:hidden left-5 top-3'>
             { showMenu ? <GrFormClose onClick={handleShowHide} className="cursor-pointer" />  :  <FiMenu onClick={handleShowHide} className='cursor-pointer' />}
              </h5>   

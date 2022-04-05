@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import NotFound from '../components/NotFound/NotFound';
 import About from '../pages/About';
 import Blogs from '../pages/Blogs';
 import Dashboard from '../pages/Dashboard';
@@ -16,6 +17,7 @@ const RoutesAll = () => {
                 <Route path="/blogs" element={<Blogs />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/reviews" element={<Reviews />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </>
     );
